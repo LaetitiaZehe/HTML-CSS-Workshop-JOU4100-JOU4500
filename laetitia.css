@@ -1,0 +1,103 @@
+html, body {
+    margin: 1px;
+    padding: 1px 1px 1px 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+}
+
+.top-bar {
+    max-width: 1002px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    font-size: 29px;
+    position: absolute;
+    padding: 2px 2px 2px 19px;
+    z-index: 4;
+    color:chartreuse;
+    font-weight: bold;
+}
+
+.top-menu {
+    position: absolute;
+    top: 67px;
+    z-index: 9;
+    width: 100%;
+}
+
+.top-menu ul {
+    list-style-type: none;
+    font-size: 20px; 
+    float: right;
+    margin-right: 20px;
+}
+
+.top-menu li {
+    display: inline-block;
+}
+
+.top-menu li a:link, .top-menu li a:visited {
+	color: rosybrown;
+	text-decoration: none;
+	padding: 22px 23px 20.9px 16px;
+}
+
+.top-menu li a:hover {
+    border-style: solid;
+    border-width: 9px 2px 4px 7px;
+    border-color: red;
+}
+
+.current-page-link {
+    border-style: solid;
+    border-width: 5px 9px 4px 5px;
+    border-color: darkblue;
+}
+
+.page-content {
+	position: relative;
+	top: 145px;
+    max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:hotpink;
+    z-index: 1;
+}
+
+.main-section {
+    padding: 10px 20px 10px 20px;
+}
+
+.main-section h1, .main-section h2 {
+    color: aquamarine;
+}
+
+.main-section figure, .main-section img {
+    display: block;
+    margin: auto;
+    width: 820px;
+}
+
+.footer {
+    position: relative;
+    top: 143px;
+    z-index: 4;
+    max-width: 1008px;
+    margin-left: auto;
+    margin-right: auto;   border-style: solid;
+    border-width: 5px 1px 2px 1px;
+    border-color: slateblue;
+}
+
+.footer-content {
+    padding: 5px 5px 5px 20px;
+    color: teal;
+}
+
+.footer-content a:link {
+    color: darkgoldenrod;
+    text-decoration: none;
+}
